@@ -1,28 +1,35 @@
 # Hacker Academy Learning Lab
 
-This repository documents my ethical hacking education through authorized labs, hands-on exercises, and original notes.
+This repository documents my ethical hacking journey through authorized labs, hands-on exercises, original notes, and SOC-focused detection insights.
 
-My goal is to better understand how attackers identify and exploit weaknesses while also learning how those activities appear from a SOC and defensive security perspective.
+## Goals
 
-## Areas of Study
+- Build practical ethical hacking skills
+- Understand how common attacks work
+- Connect offensive techniques to SOC alerts and logs
+- Document labs, lessons learned, and troubleshooting
+- Build a professional cybersecurity portfolio
 
-- Command-line fundamentals
+## Topics
+
+- Linux and command-line fundamentals
 - Reconnaissance and OSINT
-- Network enumeration
+- Network scanning and enumeration
 - Web application security
+- Wi-Fi security
 - Reverse shells
 - Privilege escalation
 - Exploit development
 - Digital forensics
-- Security automation and AI
+- AI-assisted security tools
 - Detection engineering
 
 ## What This Repository Will Include
 
-- Original lesson notes
+- Original notes
 - Authorized lab exercises
 - Commands and tools practiced
-- Troubleshooting documentation
+- Troubleshooting steps
 - Screenshots from my personal lab
 - SOC and detection observations
 - MITRE ATT&CK mappings
@@ -30,14 +37,16 @@ My goal is to better understand how attackers identify and exploit weaknesses wh
 
 ## Ethics and Authorization
 
-All exercises are performed in authorized lab environments, intentionally vulnerable systems, training platforms, or systems I personally own.
+All exercises documented here are performed in authorized lab environments, intentionally vulnerable systems, training platforms, or systems I personally own.
 
 This repository will not contain proprietary course materials, employer information, credentials, private data, or testing performed against unauthorized targets.
 
-## Current Progress
+## Progress
 
+- [x] Create repository
+- [x] Add repository description
+- [x] Make repository public
 - [ ] Complete repository setup
-- [ ] Begin Hacker Academy foundations
+- [ ] Begin first Hacker Academy module
 - [ ] Document first lesson
 - [ ] Complete first authorized lab
-- [ ] Add SOC detection notes

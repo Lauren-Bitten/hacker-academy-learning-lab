@@ -1,5 +1,3 @@
-# hacker-academy-learning-lab
-Documenting my ethical hacking journey through authorized labs, hands-on exercises, original notes, and SOC-focused detection insights.
 # Hacker Academy Learning Lab
 
 This repository documents my ethical hacking education through authorized labs, hands-on exercises, and original notes.

@@ -1,0 +1,54 @@
+# Credentials and secrets
+.env
+*.key
+*.pem
+*.pfx
+*.p12
+credentials.*
+secrets.*
+config.local.*
+
+# Packet captures
+*.pcap
+*.pcapng
+
+# Executables and binaries
+*.exe
+*.dll
+*.bin
+*.elf
+*.apk
+
+# Archives
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+
+# Virtual machine files
+*.vdi
+*.vmdk
+*.ova
+*.ovf
+
+# Python files
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Editor files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Sensitive folders
+private/
+sensitive/
+employer-data/
+course-materials/
+malware-samples/

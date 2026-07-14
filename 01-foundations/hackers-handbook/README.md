@@ -16,8 +16,12 @@ I will complete it in sections instead of trying to finish all 79 pages at once.
 
 ### Reading Sections
 
-- [ ] Introduction and lab setup
-- [ ] Reconnaissance
+## Reading Sections
+
+- [ ] Introduction and handbook overview — pages 1–2
+- [ ] How to use the handbook — pages 3–5
+- [ ] Lab setup and authorization — page 6
+- [ ] Reconnaissance — pages 7–10
 - [ ] Scanning
 - [ ] Vulnerability assessment
 - [ ] Exploitation
@@ -41,7 +45,7 @@ I will complete it in sections instead of trying to finish all 79 pages at once.
 - Lateral movement
 - Reporting and remediation
 
-## First Notes
+## Introduction Notes
 
 - Penetration testing should follow a methodical process.
 - Each phase builds on information gathered during the previous phase.
@@ -84,7 +88,11 @@ Add a short summary after completing each section.
 
 ## Next Steps
 
-- [ ] Read pages 1–10
-- [ ] Add notes from the introduction and reconnaissance sections
-- [ ] Review lab setup requirements
+## Next Steps
+
+- [ ] Read pages 1–6
+- [ ] Confirm my authorized lab environment
+- [ ] Read pages 7–10
+- [ ] Add reconnaissance notes
+- [ ] Record tools and commands introduced
 - [ ] Update the progress tracker

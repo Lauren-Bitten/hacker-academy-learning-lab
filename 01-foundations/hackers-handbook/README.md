@@ -47,17 +47,49 @@ I will complete it in sections instead of trying to finish all 79 pages at once.
 
 ## Introduction Notes
 
-- Penetration testing should follow a methodical process.
-- Each phase builds on information gathered during the previous phase.
-- Tools and commands are not enough by themselves; documentation and interpretation matter.
-- Practice should be performed in an isolated, authorized lab.
-- Virtual machine snapshots make it easier to restore systems after testing.
-- It is better to understand a smaller number of commands than rush through many of them.
+- Penetration testing follows a methodical workflow where each phase builds on the previous phase.
+- Commands alone are not enough; I also need to understand the purpose of each command and how to interpret its results.
+- The handbook should be used in multiple ways: first for an overview, then for focused study, hands-on practice, and later as a reference.
+- A safe lab should use virtual machines, intentionally vulnerable targets, an isolated network, and VM snapshots.
+- Testing must only be performed against systems I own or have explicit permission to test.
+- Reconnaissance is the information-gathering phase that helps identify the target’s attack surface before active scanning begins.
+- Reconnaissance findings should be documented instead of relying on memory.
+- Multiple tools should be used because one tool may miss subdomains, records, or other useful information.
 
 ## Tools Mentioned
 
-Add tools here as they are introduced in the handbook.
+## Tools Mentioned
 
+### Lab Environment
+
+- VirtualBox
+- Kali Linux
+- Metasploitable 2
+- DVWA
+- OWASP Juice Shop
+
+### Reconnaissance Tools
+
+- WHOIS
+- Dig
+- theHarvester
+- Amass
+- Google search operators
+- Web browser developer tools
+- Page source
+- robots.txt
+  
+## Commands Introduced
+
+These commands were introduced in the handbook but have not all been practiced yet.
+
+```bash
+whois example.com
+dig +short example.com any
+theHarvester -d example.com -b all
+amass enum -d example.com
+```
+  
 ## Notes
 
 Add original notes here while reading each section.
